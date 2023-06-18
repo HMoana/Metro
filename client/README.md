@@ -1,4 +1,4 @@
-# Metro NZ property listing app
+# Metro NZ property listing website
 
 ## Dockerized MERN Project
 
@@ -123,7 +123,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 ### **Features:**
 
 - React app using javascript and css
-- Using axios to fetch data from dockerized server and mongo containers 
+- Using axios to fetch data from dockerized server and mongo containers
 
 ---
 
@@ -131,7 +131,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
 - Improve code smells and use partner reviews
 - Future integration of sass styling
-- Attempt to dockerize the client directory
+- Attempt to dockerize client directory
 
 ---
 
