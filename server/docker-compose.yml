@@ -1,0 +1,48 @@
+version: "4"
+services:
+
+  # client:
+  #   container_name: client
+  #   build: 
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 3000:3000
+  #   stdin_open: true
+  #   networks:
+  #     - networkThree
+
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - metroData:/data/db
+    networks:
+      - networkFour
+
+  server:
+    container_name: server
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 4000:4000
+    depends_on:
+      - mongo
+    volumes: 
+      - .:/app
+    networks:
+      - networkFour
+
+  
+
+networks:
+  networkFour:
+    driver: bridge
+
+volumes:
+  metroData:
+    driver: local

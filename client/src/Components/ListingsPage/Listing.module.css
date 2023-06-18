@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+  line-height: 1.5;
+}
+
+p {
+  text-decoration: none;
+  text-align: left;
+}
+/* ===================== HEADER & FILTERS SECTION ============================== */
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 90px;
+}
+
+.title {
+  font-size: 36px;
+  text-align: left;
+}
+
+.checkboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.suburbFieldBox {
+  width: 17rem;
+  height: 38px;
+  border: solid 1px #9babb8;
+  margin: 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: grey;
+  font-weight: 600;
+}
+
+.inputFieldBox {
+  width: 9rem;
+  height: 38px;
+  border: solid 1px #9babb8;
+  margin: 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: grey;
+  font-weight: 600;
+}
+
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem;
+}
+
+.checkBoxSpacing {
+  margin: 0 1rem 0 rem;
+}
+/* ================= PROPERTY LISTING CONTAINER ====================== */
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  align-content: start;
+  justify-items: center;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1215px) {
+  .productsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 864px) {
+  .productsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 514px) {
+  .App {
+    display: block;
+  }
+  .productsContainer {
+    gap: 2rem;
+  }
+}
+
+/* ================= INDIVIDUAL LISTING PROPERTY STYLING ======================== */
+
+.avatar {
+  width: 100%;
+  border-radius: 15px;
+  width: 100%;
+  height: 57%;
+}
+
+.card > h2 {
+  color: #707070;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card > h4 {
+  color: #707070;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card > span {
+  color: #707070;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  list-style: none;
+  flex: 0 0 25%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 26rem;
+  border-radius: 15px;
+  margin: 25px 20px;
+  text-align: left;
+  border: #acabab solid 1px;
+}
+
+.propertyInfo {
+  margin-left: 20px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.propertyInfo > span {
+  color: #707070;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roomIconsContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.roomIcons {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 3px;
+}
