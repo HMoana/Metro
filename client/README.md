@@ -123,7 +123,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 ### **Features:**
 
 - React app using javascript and css
-- Using axios to fetch data from dockerized server and mongo containers in the M5-Backend repo
+- Using axios to fetch data from dockerized server and mongo containers
 
 ---
 
@@ -131,7 +131,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
 - Improve code smells and use partner reviews
 - Future integration of sass styling
-- Attempt to dockerize the M5-Frontend 
+- Attempt to dockerize client directory
 
 ---
 
