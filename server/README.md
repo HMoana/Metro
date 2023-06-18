@@ -1,4 +1,4 @@
-# Metro NZ property listing app
+# Metro NZ property listing website
 
 ## Dockerized MERN Project
 
