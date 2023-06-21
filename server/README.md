@@ -153,8 +153,6 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
 ### **Future improvements:**
 
-- Improve connection string to mongo compass
-- Use mongoose, creating schemas and models
 - Refactor and use testing during development
 
 ---

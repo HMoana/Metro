@@ -130,7 +130,6 @@ The purpose of this project is to assimilate a working environment, adopting an 
 ### **Future improvements:**
 
 - Improve code smells and use partner reviews
-- Future integration of sass styling
 - Attempt to dockerize client directory
 
 ---
