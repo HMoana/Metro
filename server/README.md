@@ -161,7 +161,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
 _Developers:_
 
-- Jin Zhang - <jinz@missionreadyhq.com>
+- Jin Zhang - <jinzh235@gmail.com>
 - Heni Kimura - <henik@missionreadyhq.com>
 - Ricardo Diaz Rodriguez <diiaz2910@gmail.com>
 
