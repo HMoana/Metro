@@ -139,7 +139,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 _Developers:_
 
 - Heni Kimura - <henik@missionreadyhq.com>
-- Jin Zhang - <jinz@missionreadyhq.com>
+- Jin Zhang - <jinzh235@gmail.com>
 - Ricardo Diaz Rodriguez <diiaz2910@gmail.com>
 
 _UX Designers:_
